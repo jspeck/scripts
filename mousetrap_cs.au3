@@ -1,9 +1,13 @@
+;
+;  AutoIt Script
+;
+;  Traps mouse cursor in your cs window
+;  Press F8 to close
+;
+
 #include <Misc.au3>
 #include <TrayConstants.au3>
 #include <MsgBoxConstants.au3>
-
-;  Traps mouse cursor in your cs window
-;  Press F8 to close
 
 TrayTip("", "Mouse Trap Opened", 5, $TIP_NOSOUND )
 
